@@ -1,0 +1,32 @@
+{
+  "name": "webpack-manual-critical-css",
+  "version": "1.0.0",
+  "description": "A Webpack 5 boilerplate with manual critical css implementation",
+  "scripts": {
+    "compile:dev": "webpack --config webpack.config.js --mode=development",
+    "compile:prod": "webpack --config webpack.config.js --mode=production",
+    "serve:dev": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermos/webpack-manual-critical-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermos/webpack-manual-critical-css/issues"
+  },
+  "homepage": "https://github.com/ermos/webpack-manual-critical-css#readme",
+  "devDependencies": {
+    "critical-css-webpack-plugin": "^3.0.0",
+    "css-loader": "^6.6.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-remove-empty-scripts": "^0.7.3"
+  },
+  "dependencies": {}
+}
