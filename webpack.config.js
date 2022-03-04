@@ -6,6 +6,8 @@ const CriticalCssPlugin = require('critical-css-webpack-plugin')
 
 module.exports = () => {
     const critical = []
+
+    // We retrieve all html pages from your src folder
     fs.readdirSync(path.join(__dirname, 'src')).forEach(file => {
         if (/.html$/.test(file)) {
             critical.push(new CriticalCssPlugin({
